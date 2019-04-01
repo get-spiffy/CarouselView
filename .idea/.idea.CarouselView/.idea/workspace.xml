@@ -1,0 +1,893 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd1991cb-dae6-4456-ab31-c1ab3ee4bb6b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/CarouselView.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/CarouselView.FormsPlugin.Abstractions.Portable.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/CarouselView.FormsPlugin.Abstractions.Portable.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/bin/Release/Xamarin.Forms.Core.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/bin/Release/Xamarin.Forms.Core.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/bin/Release/Xamarin.Forms.Core.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/bin/Release/Xamarin.Forms.Core.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/bin/Release/Xamarin.Forms.Platform.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/bin/Release/Xamarin.Forms.Xaml.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/bin/Release/Xamarin.Forms.Xaml.dll.mdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/bin/Release/Xamarin.Forms.Xaml.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/bin/Release/Xamarin.Forms.Xaml.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/obj/Debug/CarouselView.FormsPlugin.Abstractions.Portable.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/obj/Release/CarouselView.FormsPlugin.Abstractions.Portable.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/obj/Release/CarouselView.FormsPlugin.Abstractions.Portable.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/obj/Release/CarouselView.FormsPlugin.Abstractions.Portable.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/obj/Release/CarouselView.FormsPlugin.Abstractions.Portable.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/obj/Release/CarouselView.FormsPlugin.Abstractions.Portable.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/obj/Release/CarouselView.FormsPlugin.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/obj/Release/CarouselView.FormsPlugin.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselView.FormsPlugin.Abstractions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselView.FormsPlugin.Abstractions.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselViewControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselViewControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/CarouselView.FormsPlugin.Android.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/CarouselView.FormsPlugin.Android.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/CarouselViewImplementation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/CarouselViewImplementation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/Resources/Resource.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/Resources/Resource.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.UWP/CarouselViewImplementation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.UWP/CarouselViewImplementation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselView.FormsPlugin.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselView.FormsPlugin.iOS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselViewImplementation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselViewImplementation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/Demo.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/Demo.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MainPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Demo/MainPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Droid/Demo.Droid.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Droid/Demo.Droid.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Droid/Properties/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Droid/Properties/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Droid/Resources/Resource.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Droid/Resources/Resource.designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Droid/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Droid/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOS/Demo.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/iOS/Demo.iOS.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iOS/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/iOS/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/CarouselView.nuspec" beforeDir="false" afterPath="$PROJECT_DIR$/nuget/CarouselView.nuspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/lib/CarouselView.FormsPlugin.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/nuget/lib/CarouselView.FormsPlugin.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/lib/CarouselView.FormsPlugin.Android.dll" beforeDir="false" afterPath="$PROJECT_DIR$/nuget/lib/CarouselView.FormsPlugin.Android.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/lib/CarouselView.FormsPlugin.UWP.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/lib/CarouselView.FormsPlugin.UWP.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/lib/CarouselView.FormsPlugin.UWP.pri" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/lib/CarouselView.FormsPlugin.UWP.xr.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/lib/CarouselView.FormsPlugin.iOS.dll" beforeDir="false" afterPath="$PROJECT_DIR$/nuget/lib/CarouselView.FormsPlugin.iOS.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/lib/FlipViewControl.xbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/lib/Portable/CarouselView.FormsPlugin.Abstractions.dll" beforeDir="false" afterPath="$PROJECT_DIR$/nuget/lib/Portable/CarouselView.FormsPlugin.Abstractions.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuget/output/CarouselView.FormsPlugin.5.2.0.nupkg" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselViewControl.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2816">
+              <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
+              <folding>
+                <marker date="1553875517655" expanded="true" signature="6:142" ph="..." />
+                <marker date="1553875517655" expanded="true" signature="191:7792" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="195:252" ph="/// CarouselView Interface ... " />
+                <marker date="1553875517655" expanded="true" signature="296:7420" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="553:684" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="901:1022" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="1212:1330" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="1545:1674" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="1917:2066" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="2299:2430" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="2623:2741" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="2936:3055" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="3255:3377" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="3564:3669" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="3868:3992" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="4171:4281" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="4513:4676" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="4890:5041" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="5287:5444" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="5672:5717" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="5775:5944" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="6143:6282" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="6481:6618" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="6795:6902" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="7082:7205" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="7206:7414" ph="/* public void SendScrolled(double percent, ScrollDirection direction) ... */" />
+                <marker date="1553875517655" expanded="true" signature="7473:7515" ph="{...}" />
+                <marker date="1553875517655" expanded="true" signature="7563:7790" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prevBtn</find>
+      <find>ElementWidth</find>
+      <find>SendScrolled</find>
+      <find>PositionSelected</find>
+      <find>5.2.0</find>
+      <find>Generate</find>
+      <find>GetTarget</find>
+      <find>Scroll</find>
+      <find>Scrolled</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/ViewExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/Resources/Resource.Designer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/ViewContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.16/src/Xamarin.iOS/UIKit/UIButton.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/iOS/Main.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselViewImplementation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/iOS/AppDelegate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/CarouselViewImplementation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/packages.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/IEnumerableExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/ScrollDirection.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselViewOrientation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/IndicatorsShape.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselViewControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.UWP/CarouselViewImplementation.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Droid/MainActivity.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Demo/MainPage.xaml.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Demo/MainViewModel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Demo/MainPage.xaml" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.UWP/CarouselViewImplementation.cs" />
+        <option value="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/CarouselViewImplementation.cs" />
+        <option value="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselView.FormsPlugin.iOS.csproj" />
+        <option value="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/CarouselView.FormsPlugin.Android.csproj" />
+        <option value="$PROJECT_DIR$/CarouselView.sln" />
+        <option value="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/CarouselView.FormsPlugin.Abstractions.Portable.csproj" />
+        <option value="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselViewImplementation.cs" />
+        <option value="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselViewControl.cs" />
+        <option value="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselView.FormsPlugin.Abstractions.csproj" />
+        <option value="$PROJECT_DIR$/Demo/MainPage.xaml" />
+        <option value="$PROJECT_DIR$/Demo/MainPage.xaml.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="Demo.Droid/invalid/Android Facet - Demo.Droid" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="2891" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CarouselView" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Build" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Xamarin.iOS.iOS Default">
+    <configuration name="Publish CarouselView.FormsPlugin.Abstractions to folder (1)" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
+      <riderPublish runtime="win-x86" self_contained="true" target_folder="$PROJECT_DIR$/Build" target_framework="netstandard2.0" uuid_high="3955498609537994182" uuid_low="-8184524704216532237" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Publish CarouselView.FormsPlugin.Abstractions to folder" type="DotNetFolderPublish" factoryName="Publish to folder" temporary="true">
+      <riderPublish runtime="Portable" target_folder="$PROJECT_DIR$/Build" target_framework="netstandard2.0" uuid_high="3955498609537994182" uuid_low="-8184524704216532237" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Demo.iOS" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/iOS/bin/iPhoneSimulator/Debug/DemoiOS.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iOS/bin/iPhoneSimulator/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/iOS/Demo.iOS.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="XamarinIOS" />
+      <option name="PROJECT_TFM" value="Xamarin.iOS,Version=v1.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Droid/Demo.Droid.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="Android_Accelerated_Oreo" />
+      <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/iOS/Demo.iOS.csproj" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="DEFAULT_IPHONE_DEVICE" value="" />
+      <option name="DEFAULT_IPHONE_SIMULATOR" value="iPhone Xs Max iOS 12.2" />
+      <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Simulator" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Publish to folder.Publish CarouselView.FormsPlugin.Abstractions to folder (1)" />
+      <item itemvalue="Publish to folder.Publish CarouselView.FormsPlugin.Abstractions to folder" />
+      <item itemvalue=".NET Project.Demo.iOS" />
+      <item itemvalue="Xamarin.Android.Android Default" />
+      <item itemvalue="Xamarin.iOS.iOS Default" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.Demo.iOS" />
+        <item itemvalue="Publish to folder.Publish CarouselView.FormsPlugin.Abstractions to folder (1)" />
+        <item itemvalue="Publish to folder.Publish CarouselView.FormsPlugin.Abstractions to folder" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd1991cb-dae6-4456-ab31-c1ab3ee4bb6b" name="Default Changelist" comment="" />
+      <created>1553616798511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553616798511</updated>
+      <workItem from="1553616801006" duration="5471000" />
+      <workItem from="1553625810239" duration="6818000" />
+      <workItem from="1553777434241" duration="348000" />
+      <workItem from="1553785023239" duration="5281000" />
+      <workItem from="1553801109381" duration="2465000" />
+      <workItem from="1553866462281" duration="1074000" />
+      <workItem from="1553874761489" duration="4910000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26367000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="2891" height="1417" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4995587" visible="true" weight="0.16356616" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Captures" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49959967" weight="0.32949308" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49079263" weight="0.32872504" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.490284" weight="0.39938557" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49983284" weight="0.32949308" />
+      <window_info anchor="bottom" id="Build" order="8" sideWeight="0.62064624" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="Android Profiler" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.37935376" side_tool="true" visible="true" weight="0.32872504" />
+      <window_info anchor="bottom" id="NuGet" order="12" sideWeight="0.7339488" weight="0.32872504" />
+      <window_info anchor="bottom" id="Logcat" order="13" sideWeight="0.49983284" weight="0.32949308" />
+      <window_info anchor="bottom" id="Unit Tests" order="14" sideWeight="0.49983284" weight="0.32949308" />
+      <window_info anchor="bottom" id="Database Changes" order="15" />
+      <window_info anchor="bottom" id="Version Control" order="16" sideWeight="0.4994985" weight="0.32872504" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Errors In Solution" order="6" />
+      <window_info anchor="right" id="Structure" order="7" sideWeight="0.5004413" side_tool="true" weight="0.17916304" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselViewImplementation.cs</url>
+          <line>288</line>
+          <properties documentPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselViewImplementation.cs" initialLine="288">
+            <startOffsets>
+              <option value="10032" />
+            </startOffsets>
+            <endOffsets>
+              <option value="10106" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselViewImplementation.cs</url>
+          <line>554</line>
+          <properties documentPath="$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselViewImplementation.cs" initialLine="554">
+            <startOffsets>
+              <option value="20722" />
+            </startOffsets>
+            <endOffsets>
+              <option value="20827" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file:///Library/Frameworks/Xamarin.iOS.framework/Versions/12.2.1.16/src/Xamarin.iOS/UIKit/UIButton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/ViewContainer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <marker date="1553616693438" expanded="true" signature="7:34" ph="..." />
+            <marker date="1553616693438" expanded="true" signature="74:776" ph="{...}" />
+            <marker date="1553616693438" expanded="true" signature="123:774" ph="{...}" />
+            <marker date="1553616693438" expanded="true" signature="241:771" ph="{...}" />
+            <marker date="1553616693438" expanded="true" signature="361:736" ph="{...}" />
+            <marker date="1553616693438" expanded="true" signature="544:610" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/ViewExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <marker date="1553616693439" expanded="true" signature="7:126" ph="..." />
+            <marker date="1553616693439" expanded="true" signature="166:898" ph="{...}" />
+            <marker date="1553616693439" expanded="true" signature="207:896" ph="{...}" />
+            <marker date="1553616693439" expanded="true" signature="291:890" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/ScrollDirection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <marker date="1553616693422" expanded="true" signature="61:163" ph="{...}" />
+            <marker date="1553616693422" expanded="true" signature="95:161" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselViewOrientation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <marker date="1553616693421" expanded="true" signature="61:133" ph="{...}" />
+            <marker date="1553616693421" expanded="true" signature="100:131" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/IEnumerableExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <marker date="1553616693421" expanded="true" signature="6:73" ph="..." />
+            <marker date="1553616693421" expanded="true" signature="122:835" ph="{...}" />
+            <marker date="1553616693421" expanded="true" signature="167:833" ph="{...}" />
+            <marker date="1553616693421" expanded="true" signature="232:413" ph="{...}" />
+            <marker date="1553616693421" expanded="true" signature="322:393" ph="{...}" />
+            <marker date="1553616693421" expanded="true" signature="463:598" ph="{...}" />
+            <marker date="1553616693421" expanded="true" signature="562:581" ph="{...}" />
+            <marker date="1553616693421" expanded="true" signature="656:830" ph="{...}" />
+            <marker date="1553616693421" expanded="true" signature="766:810" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/IndicatorsShape.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <marker date="1553616693421" expanded="true" signature="61:119" ph="{...}" />
+            <marker date="1553616693421" expanded="true" signature="92:117" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.UWP/CarouselViewImplementation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="321" column="36" selection-start-line="321" selection-start-column="24" selection-end-line="321" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselView.FormsPlugin.iOS.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/packages/NuGet.Build.Packaging.0.2.0/build/NuGet.Build.Packaging.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="236" column="4" selection-start-line="236" selection-start-column="4" selection-end-line="236" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView.sln">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="268" column="23" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/CarouselView.FormsPlugin.Android.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions.Portable/CarouselView.FormsPlugin.Abstractions.Portable.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="732">
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.iOS/CarouselViewImplementation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="327" column="36" selection-start-line="327" selection-start-column="24" selection-end-line="327" selection-end-column="36" />
+          <folding>
+            <marker date="1553875549482" expanded="true" signature="6:430" ph="..." />
+            <marker date="1553875549482" expanded="true" signature="432:1329" ph="/* Significant Memory Leak for iOS when using custom layout for page content ##125 ... */" />
+            <marker date="1553875549482" expanded="true" signature="1455:36071" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="1459:1515" ph="/// CarouselView Renderer ... " />
+            <marker date="1553875549482" expanded="true" signature="1594:36069" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="1985:2041" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="1996:2037" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="2278:3293" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="2336:2537" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="2346:2489" ph="/* Instantiate the native control and assign it to the Control property with ... */" />
+            <marker date="1553875549482" expanded="true" signature="2567:2946" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="2976:3289" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="3388:6085" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="3405:3544" ph="/* NewItems contains the item that was added. ... */" />
+            <marker date="1553875549482" expanded="true" signature="3598:3694" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="3699:3842" ph="/* OldItems contains the item that was removed. ... */" />
+            <marker date="1553875549482" expanded="true" signature="3899:3951" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="3956:4136" ph="/* OldItems contains the moved item. ... */" />
+            <marker date="1553875549482" expanded="true" signature="4191:4978" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="4622:4971" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="4983:5167" ph="/* NewItems contains the replacement item. ... */" />
+            <marker date="1553875549482" expanded="true" signature="5225:5791" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="5772:5784" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="5885:6081" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="6141:6581" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="6318:6577" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="6585:6744" ph="/* Fix ##129 CarouselViewControl not rendered when loading a page from memory bug ... */" />
+            <marker date="1553875549482" expanded="true" signature="6786:6929" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="6969:7109" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="7204:10481" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="7512:10477" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="8818:8920" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="10491:12571" ph="adapter callbacks" />
+            <marker date="1553875549482" expanded="true" signature="10636:11962" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="10907:11227" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="11244:11563" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="11659:11869" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="11886:11952" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="12059:12551" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="12083:12547" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="12595:15249" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="12697:13261" ph="{...}" />
+            <marker date="1553875549482" expanded="false" signature="13469:14797" ph="adapter" />
+            <marker date="1553875549482" expanded="true" signature="13580:14093" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="13675:14049" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="13804:13921" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="13931:14043" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="14058:14088" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="14186:14696" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="14281:14652" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="14417:14532" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="14542:14646" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="14661:14691" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="14891:15116" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="15097:15109" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="15283:15651" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="15357:15641" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="15462:15627" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="15679:16215" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="15773:16037" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="16054:16120" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="16241:22245" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="16317:22235" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="22309:22424" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="22488:22636" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="22672:22967" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="22991:24640" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="23026:24592" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="23425:23750" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="23759:24300" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="24600:24636" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="24673:24845" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="24888:25077" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="25112:25284" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="25313:25997" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="25424:25703" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="25476:25698" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="25514:25692" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="25711:25993" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="25763:25988" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="25801:25982" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="26043:27261" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="26596:27255" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="26606:26742" ph="/* var prevPos = Element.Position; ... */" />
+            <marker date="1553875549482" expanded="true" signature="26843:26918" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="27064:27110" ph="/* if (position != prevPos) ... */" />
+            <marker date="1553875549482" expanded="true" signature="27300:29440" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="27416:29436" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="27528:27594" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="27603:29393" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="27889:28852" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="28388:28843" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="28862:29387" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="29069:29378" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="29498:30486" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="29762:30482" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="30192:30475" ph="{...}" />
+            <marker date="1553875549482" expanded="false" signature="30490:33112" ph="adapter" />
+            <marker date="1553875549482" expanded="true" signature="30557:33098" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="30749:30807" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="31185:31237" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="31245:32288" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="31284:31826" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="31574:31769" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="31648:31747" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="31847:32283" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="32563:32639" ph="/* if (dt == null &amp;&amp; view == null) ... */" />
+            <marker date="1553875549482" expanded="true" signature="32882:33067" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="33142:33641" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="33185:33391" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="33425:33631" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="33670:33814" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="33846:34635" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="33932:34107" ph="/* pageController.DidFinishAnimating -= PageController_DidFinishAnimating; ... */" />
+            <marker date="1553875549482" expanded="true" signature="34352:34490" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="34417:34451" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="34495:34631" ph="/* pageController.View.RemoveFromSuperview(); ... */" />
+            <marker date="1553875549482" expanded="true" signature="34686:35916" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="34722:35784" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="34744:34868" ph="/* CarouselViewRenderer.Dispose Null reference Unhandled Exception: ##210 ... */" />
+            <marker date="1553875549482" expanded="true" signature="34876:35378" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="35400:35454" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="35480:35736" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="35792:35831" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="35855:35912" ph="{...}" />
+            <marker date="1553875549482" expanded="true" signature="35920:36002" ph="/// Used for registration with dependency service ... " />
+            <marker date="1553875549482" expanded="true" signature="36030:36066" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselView.FormsPlugin.Abstractions.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Droid/MainActivity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <marker date="1553616693440" expanded="true" signature="7:158" ph="..." />
+            <marker date="1553616693440" expanded="true" signature="180:872" ph="{...}" />
+            <marker date="1553616693440" expanded="true" signature="480:870" ph="{...}" />
+            <marker date="1553616693440" expanded="true" signature="546:867" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/Main.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1553616693459" expanded="true" signature="6:98" ph="..." />
+            <marker date="1553616693459" expanded="true" signature="118:416" ph="{...}" />
+            <marker date="1553616693459" expanded="true" signature="146:414" ph="{...}" />
+            <marker date="1553616693459" expanded="true" signature="238:411" ph="{...}" />
+            <marker date="1553616693459" expanded="true" signature="246:356" ph="/* if you want to use a different Application Delegate class from &quot;AppDelegate&quot; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/AppDelegate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <marker date="1553616693458" expanded="true" signature="6:168" ph="..." />
+            <marker date="1553616693458" expanded="true" signature="188:611" ph="{...}" />
+            <marker date="1553616693458" expanded="true" signature="314:609" ph="{...}" />
+            <marker date="1553616693458" expanded="true" signature="400:606" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/MainViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding>
+            <marker date="1553616693440" expanded="true" signature="6:183" ph="..." />
+            <marker date="1553616693440" expanded="true" signature="199:1500" ph="{...}" />
+            <marker date="1553616693440" expanded="true" signature="257:1498" ph="{...}" />
+            <marker date="1553616693440" expanded="true" signature="361:940" ph="{...}" />
+            <marker date="1553616693440" expanded="true" signature="445:801" ph="{...}" />
+            <marker date="1553616693440" expanded="true" signature="845:928" ph="{...}" />
+            <marker date="1553616693440" expanded="true" signature="1049:1256" ph="{...}" />
+            <marker date="1553616693440" expanded="true" signature="1068:1175" ph="{...}" />
+            <marker date="1553616693440" expanded="true" signature="1192:1246" ph="{...}" />
+            <marker date="1553616693440" expanded="true" signature="1385:1492" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/MainPage.xaml.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+          <folding>
+            <marker date="1553882528374" expanded="true" signature="6:171" ph="..." />
+            <marker date="1553882528374" expanded="true" signature="187:1081" ph="{...}" />
+            <marker date="1553882528374" expanded="true" signature="237:1079" ph="{...}" />
+            <marker date="1553882528374" expanded="true" signature="297:457" ph="{...}" />
+            <marker date="1553882528374" expanded="true" signature="577:667" ph="{...}" />
+            <marker date="1553882528374" expanded="true" signature="771:923" ph="{...}" />
+            <marker date="1553882528374" expanded="true" signature="988:1073" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Demo/MainPage.xaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <marker date="1553882140780" expanded="true" signature="39:1973" ph="&lt;&lt;Grid&gt;&#10;   &#10;    &#10;        &lt;cv:CarouselViewControl x:Name=&quot;carousel&quot;&#10;            ItemsSource=&quot;{Binding MyItemsSource}&quot;&#10;            ShowArrows=&quot;true&quot;&#10;            ShowIndicators=&quot;true&quot;&#10;            PositionSelectedCommand=&quot;{Binding MyCommand}&quot;&#10;            PositionSelected=&quot;Handle_PositionSelected&quot;&#10;            Scrolled=&quot;Handle_Scrolled&quot;&#10;            Orientation=&quot;Horizontal&quot;&#10;            ArrowsWidth=&quot;50&quot;&#10;            ArrowsHeight=&quot;149&quot;&gt;&#10;    &#10;            &lt;!--&lt;cv:CarouselViewControl.ItemsSource&gt;&#10;               &lt;x:Array Type=&quot;{x:Type View}&quot;&gt;&#10;    &#10;                    &lt;ScrollView&gt;&#10;                        &lt;StackLayout&gt;&#10;                            &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c1.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;                            &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c2.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;                            &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c3.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;                        &lt;/StackLayout&gt;&#10;                    &lt;/ScrollView&gt;&#10;                    &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c1.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;                    &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c2.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;                    &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c3.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;    &#10;               &lt;/x:Array&gt;&#10;            &lt;/cv:CarouselViewControl.ItemsSource&gt;--&gt;&#10;            &#10;        &lt;/cv:CarouselViewControl&gt;&#10;    &#10;      &#10;    &lt;/Grid&gt;.../&gt;" />
+            <marker date="1553882140780" expanded="true" signature="396:1958" ph="&lt;&lt;cv:CarouselViewControl x:Name=&quot;carousel&quot;&#10;            ItemsSource=&quot;{Binding MyItemsSource}&quot;&#10;            ShowArrows=&quot;true&quot;&#10;            ShowIndicators=&quot;true&quot;&#10;            PositionSelectedCommand=&quot;{Binding MyCommand}&quot;&#10;            PositionSelected=&quot;Handle_PositionSelected&quot;&#10;            Scrolled=&quot;Handle_Scrolled&quot;&#10;            Orientation=&quot;Horizontal&quot;&#10;            ArrowsWidth=&quot;50&quot;&#10;            ArrowsHeight=&quot;149&quot;&gt;&#10;    &#10;            &lt;!--&lt;cv:CarouselViewControl.ItemsSource&gt;&#10;               &lt;x:Array Type=&quot;{x:Type View}&quot;&gt;&#10;    &#10;                    &lt;ScrollView&gt;&#10;                        &lt;StackLayout&gt;&#10;                            &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c1.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;                            &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c2.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;                            &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c3.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;                        &lt;/StackLayout&gt;&#10;                    &lt;/ScrollView&gt;&#10;                    &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c1.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;                    &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c2.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;                    &lt;ffimageloading:CachedImage DownsampleToViewSize=&quot;true&quot; Source = &quot;c3.jpg&quot; Aspect=&quot;AspectFill&quot; /&gt;&#10;    &#10;               &lt;/x:Array&gt;&#10;            &lt;/cv:CarouselViewControl.ItemsSource&gt;--&gt;&#10;            &#10;        &lt;/cv:CarouselViewControl&gt;.../&gt;" />
+            <marker date="1553882140780" expanded="true" signature="420:1934" ph="&lt;.../&gt;" />
+            <marker date="1553882140780" expanded="true" signature="842:1887" ph="&lt;!--...--&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Android/CarouselViewImplementation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5136">
+          <caret line="321" column="14" selection-start-line="321" selection-start-column="8" selection-end-line="321" selection-end-column="14" />
+          <folding>
+            <marker date="1553631225266" expanded="true" signature="6:557" ph="..." />
+            <marker date="1553631225266" expanded="true" signature="559:1055" ph="/* Save state in Android: ... */" />
+            <marker date="1553631225266" expanded="true" signature="1185:31361" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="1192:1254" ph="/// CarouselView Renderer ... " />
+            <marker date="1553631225266" expanded="true" signature="1341:31359" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="1621:1749" ph="/* double ElementWidth = -1; ... */" />
+            <marker date="1553631225266" expanded="true" signature="1998:2239" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="2337:4034" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="2419:2662" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="2450:2605" ph="/* Instantiate the native control and assign it to the Control property with ... */" />
+            <marker date="1553631225266" expanded="true" signature="2701:3378" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="3417:4024" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="4135:6987" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="4158:4306" ph="/* NewItems contains the item that was added. ... */" />
+            <marker date="1553631225266" expanded="true" signature="4369:4495" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="4509:4661" ph="/* OldItems contains the item that was removed. ... */" />
+            <marker date="1553631225266" expanded="true" signature="4727:4809" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="4823:5021" ph="/* OldItems contains the moved item. ... */" />
+            <marker date="1553631225266" expanded="true" signature="5085:5732" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="5746:5948" ph="/* NewItems contains the replacement item. ... */" />
+            <marker date="1553631225266" expanded="true" signature="6015:6406" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="6518:6977" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="7090:7144" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="7272:7871" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="7295:7463" ph="/* The OnGlobalLayout method is calledd multiple times, so we have to store the previous state ... */" />
+            <marker date="1553631225266" expanded="true" signature="7513:7861" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="7594:7772" ph="/* Only has to be set when the keyboard becomes visible, because otherwise ... */" />
+            <marker date="1553631225266" expanded="true" signature="7933:8641" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="8116:8212" ph="/* KeyboardService code ... */" />
+            <marker date="1553631225266" expanded="true" signature="8243:8332" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="8366:8631" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="8397:8472" ph="/* ElementWidth = rect.Width; ... */" />
+            <marker date="1553631225266" expanded="true" signature="8651:8816" ph="/* Fix ##129 CarouselViewControl not rendered when loading a page from memory bug ... */" />
+            <marker date="1553631225266" expanded="true" signature="8869:9014" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="9115:12859" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="9324:12849" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="11583:11685" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="12869:15753" ph="adapter callbacks" />
+            <marker date="1553631225266" expanded="true" signature="13083:14578" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="13169:13294" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="13311:14037" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="13342:13450" ph="/* e.PositionOffset is the % ... */" />
+            <marker date="1553631225266" expanded="true" signature="13501:13753" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="13774:14023" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="14268:14415" ph="/* Element.SendScrolled(percentCompleted, direction); ... */" />
+            <marker date="1553631225266" expanded="true" signature="14455:14568" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="14714:14903" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="15078:15733" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="15101:15352" ph="/* ScrollStateIdle = 0 : the pager is in Idle, settled state ... */" />
+            <marker date="1553631225266" expanded="true" signature="15544:15723" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="15783:17544" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="15829:16378" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="17578:17677" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="17705:18290" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="17799:18063" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="18080:18146" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="18316:20290" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="18362:20049" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="18413:19282" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="19320:20035" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="20066:20280" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="20346:20620" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="20394:20610" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="20676:20986" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="20757:20976" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="21022:21431" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="21461:22313" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="21511:22025" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="22042:22116" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="22365:22912" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="23032:24388" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="23298:24378" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="23448:24123" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="24431:25187" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="24747:25177" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="25007:25163" ph="{...}" />
+            <marker date="1553631225266" expanded="false" signature="25197:29608" ph="adapter" />
+            <marker date="1553631225266" expanded="true" signature="25254:29588" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="25442:25594" ph="/* string TAG_VIEWS = &quot;TAG_VIEWS&quot;; ... */" />
+            <marker date="1553631225266" expanded="true" signature="25655:25829" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="25868:25999" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="25902:25985" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="26094:26162" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="26266:28148" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="26711:26805" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="26826:27479" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="26882:26968" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="26993:27461" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="27793:27994" ph="/* nativeConverted.SaveEnabled = true; ... */" />
+            <marker date="1553631225266" expanded="true" signature="28262:28640" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="28392:28474" ph="/* view.SaveEnabled = true; ... */" />
+            <marker date="1553631225266" expanded="true" signature="28715:28934" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="28948:29578" ph="/* public override IParcelable SaveState() ... */" />
+            <marker date="1553631225266" expanded="true" signature="29665:31158" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="29716:30930" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="29767:29930" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="29968:30131" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="30160:30223" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="30251:30515" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="30553:30881" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="30947:31016" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="31049:31148" ph="{...}" />
+            <marker date="1553631225266" expanded="true" signature="31168:31262" ph="/// Used for registration with dependency service ... " />
+            <marker date="1553631225266" expanded="true" signature="31296:31353" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CarouselView/CarouselView.FormsPlugin.Abstractions/CarouselViewControl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2816">
+          <caret line="176" column="25" selection-start-line="176" selection-start-column="25" selection-end-line="176" selection-end-column="25" />
+          <folding>
+            <marker date="1553875517655" expanded="true" signature="6:142" ph="..." />
+            <marker date="1553875517655" expanded="true" signature="191:7792" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="195:252" ph="/// CarouselView Interface ... " />
+            <marker date="1553875517655" expanded="true" signature="296:7420" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="553:684" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="901:1022" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="1212:1330" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="1545:1674" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="1917:2066" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="2299:2430" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="2623:2741" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="2936:3055" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="3255:3377" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="3564:3669" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="3868:3992" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="4171:4281" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="4513:4676" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="4890:5041" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="5287:5444" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="5672:5717" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="5775:5944" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="6143:6282" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="6481:6618" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="6795:6902" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="7082:7205" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="7206:7414" ph="/* public void SendScrolled(double percent, ScrollDirection direction) ... */" />
+            <marker date="1553875517655" expanded="true" signature="7473:7515" ph="{...}" />
+            <marker date="1553875517655" expanded="true" signature="7563:7790" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

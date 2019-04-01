@@ -319,7 +319,8 @@ namespace CarouselView.FormsPlugin.UWP
             }
 
             if (percentCompleted <= 100)
-                Element.SendScrolled(percentCompleted, direction);
+                Element.SendScrolled(direction);
+//                Element.SendScrolled(percentCompleted, direction);
         }
 
         private void ScrollingHost_ViewChanged(object sender, ScrollViewerViewChangedEventArgs e)

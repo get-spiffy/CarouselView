@@ -1,11 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
     <ReleaseVersion>3.1.1</ReleaseVersion>
+    <PackageVersion>5.2.1</PackageVersion>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>CarouselView.FormsPlugin.Abstractions</PackageId>
+    <Authors>Spiffy </Authors>
+    <Owners>Spiffy</Owners>
+    <Summary>Carousel View</Summary>
+    <Title>Carousel View</Title>
+    <Description>Carousl View</Description>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>false</IsPackable>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="2.5.0.122203" />
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.264807" />
   </ItemGroup>
 </Project>

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>CarouselView.FormsPlugin</id>
-        <version>5.2.0</version>
+        <version>5.2.2</version>
         <title>CarouselView Control for Xamarin Forms</title>
         <authors>Alex Rainman</authors>
         <owners>Alex Rainman</owners>
@@ -12,6 +12,10 @@
         <description>Create Horizontal and Vertical carousels, add page indicators, navigation arrows and much more. “How to” at Github repository.</description>
         <summary>CarouselView Control for Xamarin Forms</summary>
         <releaseNotes>
+5.2.2 Moving to Spiffy version
+[Update] Versioning for Spiffy User and adding larger Arrows and paged swipe
+5.2.1
+[Update] Updating to 5.2.1 for Spiffy Local Build
 5.2.0
 [Android] NullReferenceException during swiping bug #314
 [Update] Adding scroll direction property to Scrolled event callback
@@ -34,7 +38,7 @@
 [Android] Fix for entry focus soft keyboard bug #242
 [Android] Out of memories (FFImageLoading + CarouselView) #279
 5.0.2
-[Android] System.InvalidCastException: Specified cast is not valid. Android #272 
+[Android] System.InvalidCastException: Specified cast is not valid. Android #272
 5.0.1
 [Update] Navigation Arrows doesn't disappear when using swipe #265
 5.0.0
@@ -56,11 +60,11 @@
 [Android] Does not re-measure its layout on Height Changed #184
 [Android] Content bleeds into Indicator position due to height miscalculation #185
 4.4.3
-[Android] TapGestureRecognizer doesn't work when added to CarouselViewControl #200 
+[Android] TapGestureRecognizer doesn't work when added to CarouselViewControl #200
 [iOS] PositionSelected not called when adding a new item.
 [UWP] Adding an Item to the CarouselView Causes Exception when ShowIndicators = False #198
 [UWP] Crash on window resize #199
-[UWP] Adding back VirtualizationStackPanel as FlipView.ItemsPanelTemplate 
+[UWP] Adding back VirtualizationStackPanel as FlipView.ItemsPanelTemplate
 [UWP] Overall stability and improvements.
 4.4.2
 [Update] Fix #129 CarouselViewControl not rendered when loading a page from memory bug
@@ -175,10 +179,7 @@
                 <dependency id="Xamarin.Android.VerticalViewPager" version="1.0.1"/>
 	        </group>
 	        <group targetFramework="Xamarin.iOS10">
-	            <dependency id="Xamarin.Forms" version="2.5.0.121934"/>
-	        </group>
-	        <group targetFramework="UAP10">
-	            <dependency id="Xamarin.Forms" version="2.5.0.121934"/>
+	            <dependency id="Xamarin.Forms" version="3.6.0"/>
 	        </group>
 		</dependencies>
     </metadata>
@@ -196,12 +197,5 @@
         <!-- Xamarin.Android -->
         <file src="lib/CarouselView.FormsPlugin.Android.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Android.dll" />
         <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll" />
-
-        <!-- UWP -->
-        <file src="lib/CarouselView.FormsPlugin.UWP.dll" target="lib/UAP10/CarouselView.FormsPlugin.UWP.dll" />
-        <file src="lib/CarouselView.FormsPlugin.UWP.pri" target="lib/UAP10/CarouselView.FormsPlugin.UWP.pri" />
-        <file src="lib/CarouselView.FormsPlugin.UWP.xr.xml" target="lib/UAP10/CarouselView.FormsPlugin.UWP/CarouselView.FormsPlugin.UWP.xr.xml" />
-        <file src="lib/FlipViewControl.xbf" target="lib/UAP10/FlipViewControl.xbf" />
-        <file src="lib/CarouselView.FormsPlugin.Abstractions.dll" target="lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll" />
     </files>
 </package>

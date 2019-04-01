@@ -60,7 +60,7 @@ namespace CarouselView.FormsPlugin.Abstractions
 			get { return (IndicatorsShape)GetValue(IndicatorsShapeProperty); }
 			set { SetValue(IndicatorsShapeProperty, value); }
 		}
-
+		
 		public static readonly BindableProperty ShowIndicatorsProperty = BindableProperty.Create("ShowIndicators", typeof(bool), typeof(CarouselViewControl), false);
 
 		public bool ShowIndicators
@@ -138,28 +138,48 @@ namespace CarouselView.FormsPlugin.Abstractions
         {
             return true;
         });
-
+        
         public Command PositionSelectedCommand
         {
             get { return (Command)GetValue(PositionSelectedCommandProperty); }
             set { SetValue(PositionSelectedCommandProperty, value); }
         }
 
+        public static readonly BindableProperty ArrowsHeightProperty = BindableProperty.Create("ArrowsHeight", typeof(double), typeof(CarouselViewControl), 40.0);
+        public double ArrowsHeight
+        {
+	        get { return (double)GetValue(ArrowsHeightProperty); }
+	        set { SetValue(ArrowsHeightProperty, value);}
+        }
+		
+        public static readonly BindableProperty ArrowsWidthProperty = BindableProperty.Create("ArrowsWidth", typeof(double), typeof(CarouselViewControl), 40.0);
+
+        public double ArrowsWidth
+        {
+	        get { return (double)GetValue(ArrowsWidthProperty); }
+	        set { SetValue(ArrowsWidthProperty, value);}
+        }
+        
+        
 		public event EventHandler<PositionSelectedEventArgs> PositionSelected;
 
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public void SendPositionSelected()
 		{
-            PositionSelected?.Invoke(this, new PositionSelectedEventArgs { NewValue = this.Position });
+            PositionSelected?.Invoke(this, new PositionSelectedEventArgs { NewValue = Position });
 		}
 
         public event EventHandler<ScrolledEventArgs> Scrolled;
 
         [EditorBrowsable(EditorBrowsableState.Never)]
-        public void SendScrolled(double percent, ScrollDirection direction)
+        public void SendScrolled( ScrollDirection direction)
         {
-            Scrolled?.Invoke(this, new ScrolledEventArgs { NewValue = percent, Direction = direction });
+	        Scrolled?.Invoke(this, new ScrolledEventArgs { NewValue = Position, Direction = direction });
         }
+//        public void SendScrolled(double percent, ScrollDirection direction)
+//        {
+//            Scrolled?.Invoke(this, new ScrolledEventArgs { NewValue = percent, Direction = direction });
+//        }
     }
 
 	public class PositionSelectedEventArgs : EventArgs
@@ -169,7 +189,9 @@ namespace CarouselView.FormsPlugin.Abstractions
 
     public class ScrolledEventArgs : EventArgs
     {
-        public double NewValue { get; set; }
+		//Changing to an int so that we can pass indexed position to work with our app.
+		public int NewValue { get; set; }
+		// public double NewValue { get; set; }
         public ScrollDirection Direction { get; set; }
     }
 }

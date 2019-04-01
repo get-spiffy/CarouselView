@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata minClientVersion="">
+    <id>CarouselView.iOS</id>
+    <version>5.2.1</version>
+    <title>CarouselView</title>
+    <authors>Spiffy</authors>
+    <owners>Spiffy</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>CarouselView</description>
+    <summary></summary>
+    <releaseNotes></releaseNotes>
+    <copyright></copyright>
+    <language></language>
+    <tags></tags>
+    <dependencies>
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="Xamarin.Forms" version="3.6.0.264807" />
+        <dependency id="CarouselView" version="5.2.1" />
+      </group>
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Core" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="Xamarin.iOS1.0" />
+      <frameworkAssembly assemblyName="Xamarin.iOS" targetFramework="Xamarin.iOS1.0" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="/Code/Spiffy/CarouselView/CarouselView/CarouselView.FormsPlugin.iOS/bin/iPhone/Release/CarouselView.FormsPlugin.iOS.dll" target="lib/xamarinios10/CarouselView.FormsPlugin.iOS.dll" />
+    <file src="/Code/Spiffy/CarouselView/CarouselView/CarouselView.FormsPlugin.iOS/bin/iPhone/Release/CarouselView.FormsPlugin.iOS.XML" target="lib/xamarinios10/CarouselView.FormsPlugin.iOS.XML" />
+  </files>
+</package>

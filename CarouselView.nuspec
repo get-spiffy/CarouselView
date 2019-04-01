@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>CarouselView.FormsPlugin</id>
+    <version>5.2.2</version>
+    <title>CarouselView Control for Xamarin Forms</title>
+    <authors>Spify</authors>
+    <owners>Spiffy</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Spiffy version of Alex Reyes CarouselView https://github.com/alexrainman/CarouselView</description>
+    <releaseNotes>Increased Size of arrows and change swipe to use similar logic as the arrows.</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <dependencies>
+        <group targetFramework="MonoAndroid10">
+            <dependency id="Xamarin.Forms" version="3.6.0"/>
+                <dependency id="Xamarin.Android.Support.v4" version="25.4.0.2"/>
+                  <dependency id="Xamarin.Android.CirclePageIndicator" version="1.0.2"/>
+                  <dependency id="Xamarin.Android.VerticalViewPager" version="1.0.1"/>
+            </group>
+        <group targetFramework="Xamarin.iOS10">
+            <dependency id="Xamarin.Forms" version="3.6.0"/>
+        </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -4,33 +4,39 @@
     x:Class="Demo.MainPage"
     xmlns:cv="clr-namespace:CarouselView.FormsPlugin.Abstractions;assembly=CarouselView.FormsPlugin.Abstractions"
     xmlns:ffimageloading="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms">
-
-    <cv:CarouselViewControl x:Name="carousel"
-        ItemsSource="{Binding MyItemsSource}"
-        ShowArrows="true"
-        ShowIndicators="true"
-        PositionSelectedCommand="{Binding MyCommand}"
-        PositionSelected="Handle_PositionSelected"
-        Scrolled="Handle_Scrolled"
-        Orientation="Horizontal">
-
-        <!--<cv:CarouselViewControl.ItemsSource>
-           <x:Array Type="{x:Type View}">
-
-                <ScrollView>
-                    <StackLayout>
-                        <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c1.jpg" Aspect="AspectFill" />
-                        <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c2.jpg" Aspect="AspectFill" />
-                        <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c3.jpg" Aspect="AspectFill" />
-                    </StackLayout>
-                </ScrollView>
-                <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c1.jpg" Aspect="AspectFill" />
-                <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c2.jpg" Aspect="AspectFill" />
-                <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c3.jpg" Aspect="AspectFill" />
-
-           </x:Array>
-        </cv:CarouselViewControl.ItemsSource>-->
-
-    </cv:CarouselViewControl>
-
+    <Grid>
+   
+    
+        <cv:CarouselViewControl x:Name="carousel"
+            ItemsSource="{Binding MyItemsSource}"
+            ShowArrows="true"
+            ShowIndicators="true"
+            PositionSelectedCommand="{Binding MyCommand}"
+            PositionSelected="Handle_PositionSelected"
+            Scrolled="Handle_Scrolled"
+            Orientation="Horizontal"
+            ArrowsWidth="40"
+            ArrowsHeight="80">
+    
+            <!--<cv:CarouselViewControl.ItemsSource>
+               <x:Array Type="{x:Type View}">
+    
+                    <ScrollView>
+                        <StackLayout>
+                            <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c1.jpg" Aspect="AspectFill" />
+                            <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c2.jpg" Aspect="AspectFill" />
+                            <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c3.jpg" Aspect="AspectFill" />
+                        </StackLayout>
+                    </ScrollView>
+                    <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c1.jpg" Aspect="AspectFill" />
+                    <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c2.jpg" Aspect="AspectFill" />
+                    <ffimageloading:CachedImage DownsampleToViewSize="true" Source = "c3.jpg" Aspect="AspectFill" />
+    
+               </x:Array>
+            </cv:CarouselViewControl.ItemsSource>-->
+            
+        </cv:CarouselViewControl>
+    
+      
+    </Grid>
 </ContentPage>

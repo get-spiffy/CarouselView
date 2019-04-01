@@ -15,6 +15,7 @@ using System.Collections.Generic;
 using Android.Content;
 using Android.App;
 using Com.ViewPagerIndicator;
+using CarouselViewRenderer = CarouselView.FormsPlugin.Android.CarouselViewRenderer;
 
 /*
  * Save state in Android:
@@ -347,7 +348,8 @@ namespace CarouselView.FormsPlugin.Android
 
             // report % while the user is dragging or when SetCurrentPage has been called
             if (mViewPagerState == ViewPager.ScrollStateDragging || setCurrentPageCalled)
-                Element.SendScrolled(percentCompleted, direction);
+                Element.SendScrolled(direction);
+//                Element.SendScrolled(percentCompleted, direction);
 
             // PageScrolled is called 2 times when SetCurrentPage is executed
             if (pageScrolledCount == 2)
@@ -471,6 +473,10 @@ namespace CarouselView.FormsPlugin.Android
                     prevBtn.SetBackgroundColor(Element.ArrowsBackgroundColor.ToAndroid());
                     prevBtn.Visibility = Element.Position == 0 || Element.ItemsSource.GetCount() == 0 ? AViews.ViewStates.Gone : AViews.ViewStates.Visible;
                     prevBtn.Alpha = Element.ArrowsTransparency;
+                    prevBtn.SetMinimumWidth((int)Element.ArrowsWidth); 
+                    prevBtn.SetMinimumHeight((int)Element.ArrowsHeight);
+                    
+                    
 
                     var prevArrow = nativeView.FindViewById<AWidget.ImageView>(Resource.Id.prevArrow);
                     prevArrow.SetColorFilter(Element.ArrowsTintColor.ToAndroid());
