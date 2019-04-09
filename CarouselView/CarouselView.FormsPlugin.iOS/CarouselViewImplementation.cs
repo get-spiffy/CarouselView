@@ -11,6 +11,7 @@ using Foundation;
 using UIKit;
 using Xamarin.Forms;
 using Xamarin.Forms.Platform.iOS;
+using CarouselViewRenderer = CarouselView.FormsPlugin.iOS.CarouselViewRenderer;
 
 /*
  * Significant Memory Leak for iOS when using custom layout for page content #125
@@ -184,7 +185,7 @@ namespace CarouselView.FormsPlugin.iOS
 			// To avoid extra DataTemplate instantiations #158
             if (rect.Height > 0)
             { 
-                ElementWidth = rect.Width;
+	            ElementWidth = rect.Width;
                 ElementHeight = rect.Height;
                 SetNativeView();
                 Element.SendPositionSelected();
@@ -284,6 +285,14 @@ namespace CarouselView.FormsPlugin.iOS
                     prevBtn.Alpha = Element.ArrowsTransparency;
                     nextBtn.Alpha = Element.ArrowsTransparency;
                     break;
+                case "ArrowsHeight":
+	                prevBtn.Frame = new CGRect(0,0,Element.ArrowsHeight, Element.ArrowsWidth);
+	                nextBtn.Frame = new CGRect(0, 0, Element.ArrowsHeight, Element.ArrowsWidth);
+	                break;
+                case "ArrowsWidth":
+	                prevBtn.Bounds = new CGRect(0,0,Element.ArrowsHeight, Element.ArrowsWidth);
+	                nextBtn.Bounds = new CGRect(0, 0, Element.ArrowsHeight, Element.ArrowsWidth);
+	                break;
 			}
 		}
 
@@ -316,7 +325,8 @@ namespace CarouselView.FormsPlugin.iOS
 
             if (currentPercentCompleted <= 100 && currentPercentCompleted > percentCompleted)
             {
-                Element.SendScrolled(currentPercentCompleted, direction);
+	            Element.SendScrolled(direction);
+//                Element.SendScrolled(currentPercentCompleted, direction);
                 percentCompleted = currentPercentCompleted;
             }
             else
@@ -486,26 +496,31 @@ namespace CarouselView.FormsPlugin.iOS
             {
                 var o = Element.Orientation == CarouselViewOrientation.Horizontal ? "H" : "V";
                 var formatOptions = Element.Orientation == CarouselViewOrientation.Horizontal ? NSLayoutFormatOptions.AlignAllCenterY : NSLayoutFormatOptions.AlignAllCenterX;
-
+				
+                CGRect arrowsRect = new CGRect(0,0, Element.ArrowsWidth, Element.ArrowsHeight);
+                
                 prevBtn = new UIButton();
                 prevBtn.Hidden = Element.Position == 0 || Element.ItemsSource.GetCount() == 0;
                 prevBtn.BackgroundColor = Element.ArrowsBackgroundColor.ToUIColor();
                 prevBtn.Alpha = Element.ArrowsTransparency;
                 prevBtn.TranslatesAutoresizingMaskIntoConstraints = false;
-
+//				prevBtn.Frame = arrowsRect;
+                
+                
                 var prevArrow = new UIImageView();
                 var prevArrowImage = new UIImage(Element.Orientation == CarouselViewOrientation.Horizontal ? "Prev.png" : "Up.png");
                 prevArrow.Image = prevArrowImage.ImageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate);
                 prevArrow.TranslatesAutoresizingMaskIntoConstraints = false;
                 prevArrow.TintColor = Element.ArrowsTintColor.ToUIColor();
+                
                 prevBtn.AddSubview(prevArrow);
 
                 prevBtn.TouchUpInside += PrevBtn_TouchUpInside;
 
                 var prevViewsDictionary = NSDictionary.FromObjectsAndKeys(new NSObject[] { prevBtn, prevArrow }, new NSObject[] { new NSString("superview"), new NSString("prevArrow") });
-                prevBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat("[prevArrow(==17)]", 0, new NSDictionary(), prevViewsDictionary));
-                prevBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat("V:[prevArrow(==17)]", 0, new NSDictionary(), prevViewsDictionary));
-                prevBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat(o + ":[prevArrow]-(2)-|", 0, new NSDictionary(), prevViewsDictionary));
+                prevBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat("[prevArrow(==34)]", 0, new NSDictionary(), prevViewsDictionary));
+                prevBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat("V:[prevArrow(==34)]", 0, new NSDictionary(), prevViewsDictionary));
+                prevBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat(o + ":[prevArrow]-(4)-|", 0, new NSDictionary(), prevViewsDictionary));
                 prevBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat(o + ":[superview]-(<=1)-[prevArrow]", formatOptions, new NSDictionary(), prevViewsDictionary));
 
                 pageController.View.AddSubview(prevBtn);
@@ -515,28 +530,30 @@ namespace CarouselView.FormsPlugin.iOS
                 nextBtn.BackgroundColor = Element.ArrowsBackgroundColor.ToUIColor();
                 nextBtn.Alpha = Element.ArrowsTransparency;
                 nextBtn.TranslatesAutoresizingMaskIntoConstraints = false;
-
+                nextBtn.Frame = arrowsRect;
+                
                 var nextArrow = new UIImageView();
                 var nextArrowImage = new UIImage(Element.Orientation == CarouselViewOrientation.Horizontal ? "Next.png" : "Down.png");
                 nextArrow.Image = nextArrowImage.ImageWithRenderingMode(UIImageRenderingMode.AlwaysTemplate);
                 nextArrow.TranslatesAutoresizingMaskIntoConstraints = false;
                 nextArrow.TintColor = Element.ArrowsTintColor.ToUIColor();
+//                nextArrow.Frame = arrowsRect;
                 nextBtn.AddSubview(nextArrow);
 
                 nextBtn.TouchUpInside += NextBtn_TouchUpInside;
 
                 var nextViewsDictionary = NSDictionary.FromObjectsAndKeys(new NSObject[] { nextBtn, nextArrow }, new NSObject[] { new NSString("superview"), new NSString("nextArrow") });
-                nextBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat("[nextArrow(==17)]", 0, new NSDictionary(), nextViewsDictionary));
-                nextBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat("V:[nextArrow(==17)]", 0, new NSDictionary(), nextViewsDictionary));
-                nextBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat(o + ":|-(2)-[nextArrow]", 0, new NSDictionary(), nextViewsDictionary));
+                nextBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat("[nextArrow(==34)]", 0, new NSDictionary(), nextViewsDictionary));
+                nextBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat("V:[nextArrow(==34)]", 0, new NSDictionary(), nextViewsDictionary));
+                nextBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat(o + ":|-(4)-[nextArrow]", 0, new NSDictionary(), nextViewsDictionary));
                 nextBtn.AddConstraints(NSLayoutConstraint.FromVisualFormat(o + ":[superview]-(<=1)-[nextArrow]", formatOptions, new NSDictionary(), nextViewsDictionary));
 
                 pageController.View.AddSubview(nextBtn);
 
                 var btnsDictionary = NSDictionary.FromObjectsAndKeys(new NSObject[] { pageController.View, prevBtn, nextBtn }, new NSObject[] { new NSString("superview"), new NSString("prevBtn"), new NSString("nextBtn") });
 
-                var w = Element.Orientation == CarouselViewOrientation.Horizontal ? 20 : 36;
-                var h = Element.Orientation == CarouselViewOrientation.Horizontal ? 36 : 20;
+                var w = Element.Orientation == CarouselViewOrientation.Horizontal ? arrowsRect.Width : arrowsRect.Height;
+                var h = Element.Orientation == CarouselViewOrientation.Horizontal ? arrowsRect.Height : arrowsRect.Width;
 
                 pageController.View.AddConstraints(NSLayoutConstraint.FromVisualFormat("H:[prevBtn(==" + w + ")]", 0, new NSDictionary(), btnsDictionary));
                 pageController.View.AddConstraints(NSLayoutConstraint.FromVisualFormat("V:[prevBtn(==" + h + ")]", 0, new NSDictionary(), btnsDictionary));
